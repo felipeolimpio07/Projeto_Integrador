@@ -148,7 +148,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($stmt->execute()) {
         echo "
       <div class=\"alert alert-success\" style=\"max-width:400px; margin:auto;\" role=\"alert\">
-          Conta ciada com <strong>sucesso!</strong>
+          Conta criada com <strong>sucesso!</strong>
           <button type=\"button\" class=\"btn-close\" style=\"float:right;\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>
       </div>
       ";
